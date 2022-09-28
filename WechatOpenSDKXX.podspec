@@ -1,10 +1,10 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "WechatOpenSDKXX"
-  spec.version      = "1.9.2"
-  spec.summary      = "WechatOpenSDK 1.9.2"
+  spec.version      = "1.9.6"
+  spec.summary      = "WechatOpenSDK 1.9.6"
   spec.description  = <<-DESC
-  WechatOpenSDK 1.9.2 完整版本
+  WechatOpenSDK 1.9.6 完整版本
                    DESC
   
   spec.homepage     = "https://github.com/zungjam/WechatOpenSDK"
@@ -13,9 +13,9 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/zungjam/WechatOpenSDK.git", :tag => "#{spec.version}" }
   spec.platform         = :ios, '9.0'
 
-  spec.public_header_files = "OpenSDK1.9.2/*.h"
-  spec.source_files        = "OpenSDK1.9.2/*.{h,m,mm}"
-  spec.vendored_libraries  = 'OpenSDK1.9.2/*.a'
+  spec.public_header_files = "OpenSDK1.9.6/*.h"
+  spec.source_files        = "OpenSDK1.9.6/*.{h,m,mm}"
+  spec.vendored_libraries  = 'OpenSDK1.9.6/*.a'
   spec.frameworks            = 'CFNetwork', 'Security', 'CoreTelephony', 'SystemConfiguration', 'UIKit', 'CoreGraphics', 'Foundation', 'WebKit'
   spec.libraries           = 'z', 'sqlite3.0', 'c++'
 

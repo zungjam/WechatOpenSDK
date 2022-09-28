@@ -1,2 +1,2 @@
 # WechatOpenSDK
-WechatOpenSDK 1.9.2
+WechatOpenSDK 1.9.6
